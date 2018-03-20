@@ -1,0 +1,17 @@
+body {
+    background-color: forestgreen;
+}
+
+.wrapper {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.form {
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: silver;
+    width: 40%;
+    height: 300px;
+}
