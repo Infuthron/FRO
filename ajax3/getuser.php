@@ -27,7 +27,7 @@
 
         $q = intval($_GET['q']);
 
-        $con = mysqli_connect('localhost', '24724', '12345', '24724_db');
+        $con = mysqli_connect('localhost', '24724', 'db_pass', 'my_db');
         if (!$con) {
             die('Could not connect' . mysqli_error($con));
         }
